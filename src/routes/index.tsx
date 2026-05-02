@@ -16,7 +16,7 @@ function Index() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative min-h-[92vh] flex items-center overflow-hidden -mt-20 pt-20">
+      <section className="relative min-h-[92vh] flex items-center -mt-20 pt-20">
         <div className="absolute inset-0">
           <img src={heroImg} alt="Morocco landscape" width={1920} height={1080} className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/85 via-primary/60 to-primary/30" />
